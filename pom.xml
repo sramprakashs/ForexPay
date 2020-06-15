@@ -100,7 +100,7 @@
 	         <user>forexuser1</user>
 		  <password>H@ckath0n</password>
 	      <schemas>
-	          <schema>forexdb</schema>
+	          <schema>forexpaydb</schema>
 	        </schemas>
 	  </configuration>	
 	 </plugin>
