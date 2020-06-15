@@ -97,10 +97,10 @@
 	    <configuration>
 	         <baselineOnMigrate>true</baselineOnMigrate>
 	         <url>jdbc:mysql://52.14.19.158:3306</url>
-	         <user>inguser3</user>
+	         <user>forexuser1</user>
 		  <password>H@ckath0n</password>
 	      <schemas>
-	          <schema>forexpay</schema>
+	          <schema>forexdb</schema>
 	        </schemas>
 	  </configuration>	
 	 </plugin>
