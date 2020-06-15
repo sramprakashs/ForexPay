@@ -83,7 +83,7 @@ steps {
 
  
 
-sh '/opt/maven/bin/mvn clean flyway:migrate' 
+sh '/opt/maven/bin/mvn clean flyway:undo' 
 
  
 
