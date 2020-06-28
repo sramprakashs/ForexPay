@@ -75,29 +75,7 @@ sh 'export JENKINS_NODE_COOKIE=dontkillme ;nohup java -jar $WORKSPACE/target/*.j
 
  
 
-   stage ('DB Migration') { 
-
- 
-
-steps { 
-
- 
-
-sh '/opt/maven/bin/mvn clean flyway:migrate' 
-
- 
-
-}}
-stage( 'email' ){
-
-            steps{
-
-               emailext body: """<p>STARTED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
- 
-              <p>Check console output at &QUOT;<a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>&QUOT;</p>""", subject: "The Application has been deployed. Job: '${env.JOB_NAME} [${env.BUILD_NUMBER}]'", to: 'samridhii.bareja9719@gmail.com'
-            }
-
-        }} 
+  } 
 
  
 
