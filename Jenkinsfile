@@ -11,6 +11,41 @@ steps {
 
 sh '/opt/maven/bin/mvn clean verify -Dmaven.test.skip=true' 
 }}
+   stage('Please Provide Approval for SIT Deployment ?'){
+
+steps{
+
+slackSend baseUrl: 'https://hooks.slack.com/services/', channel: 'jenkins', color: 'bad', message: "${env.BUILD_URL}", tokenCredentialId: 'slack', username: 'samridhi bareja'
+
+script{
+
+def userInput
+
+try {
+
+userInput = input(
+
+id: 'Proceed1', message: 'SIT Deployment Approval', parameters: [
+
+[$class: 'BooleanParameterDefinition', defaultValue: true, description: '', name: 'Please Confirm you agree with this']
+
+])
+
+} catch(err) {
+
+def user = err.getCauses()[0].getUser()
+
+userInput = false
+
+echo "Aborted by: [${user}]"
+
+}
+
+}
+
+}
+
+}
     
  
 
