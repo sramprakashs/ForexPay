@@ -9,14 +9,14 @@
 	</parent>
 	<groupId>com.squad</groupId>
 	<artifactId>ForexPay</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>ForexPay</name>
 	<description>Money Transfer project for Spring Boot</description>
 <scm>
        <connection>scm:https://github.com/samridhi97/maven-multi-module-example.git</connection>
        <url>https://github.com/samridhi97/maven-multi-module-example.git</url>
        <developerConnection>scm:git:https://github.com/samridhi97/maven-multi-module-example.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>0.0.2</tag>
   </scm>
 
 	<properties>
