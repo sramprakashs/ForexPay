@@ -75,11 +75,11 @@
     	<distributionManagement>
 	     <snapshotRepository>
         	<id>nexus</id>
-         	<url>http://3.19.65.226:8081/nexus/content/repositories/snapshots</url>
+         	<url>http://3.14.85.232:8081/nexus/content/repositories/snapshots</url>
              </snapshotRepository>
         	<repository>
         	    	<id>nexus</id>
-        		<url>http://3.19.65.226:8081/nexus/content/repositories/releases</url>
+        		<url>http://3.14.85.232:8081/nexus/content/repositories/releases</url>
         	</repository>
 	</distributionManagement>
 	
@@ -128,7 +128,7 @@
         		<artifactId>flyway-maven-plugin</artifactId>
 			<version>6.3.2</version>
 		<configuration>
-                	<url>jdbc:mysql://3.15.13.77:3306</url>
+                	<url>jdbc:mysql://3.14.85.232:3306</url>
                 	<user>flyuser1</user>
 	        	<password>H@ckath0n</password>
 	       	<schemas>
