@@ -65,6 +65,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.flywaydb</groupId> 
+ 			<artifactId>flyway-core</artifactId> 
+ 			<version>6.4.4</version> 
+		</dependency>
 	</dependencies>
 	 <scm>
 		<connection>scm:https://github.com/EereshM/ForexPay.git</connection>
