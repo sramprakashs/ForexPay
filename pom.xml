@@ -129,10 +129,10 @@
 			<version>6.3.2</version>
 		<configuration>
                 	<url>jdbc:mysql://18.216.219.223:3306</url>
-                	<user>flyuser1</user>
+                	<user>forexpayuser1</user>
 	        	<password>H@ckath0n</password>
 	       	<schemas>
-                        <schema>testdb</schema>
+                        <schema>forexpaydb</schema>
               	</schemas>
  		</configuration>	
 	</plugin>
