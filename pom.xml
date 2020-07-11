@@ -105,11 +105,11 @@
 	    <version>6.4.4</version>
 	    <configuration>
 	         <baselineOnMigrate>true</baselineOnMigrate>
-	         <url>jdbc:mysql://3.21.92.72:3306</url>
-	         <user>inguser2</user>
+	         <url>jdbc:mysql://3.15.210.6:3306</url>
+	         <user>user</user>
 		  <password>H@ckath0n</password>
 	      <schemas>
-	          <schema>ingdb</schema>
+	          <schema>trial</schema>
 	        </schemas>
 	  </configuration>	
 	 </plugin>
