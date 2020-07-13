@@ -12,12 +12,12 @@
 	<version>1.11-SNAPSHOT</version>
 	<name>ForexPay</name>
 	<description>Money Transfer project for Spring Boot</description>
-<scm>
-       <connection>scm:https://github.com/samridhi97/ForexPay.git</connection>
-       <url>https://github.com/samridhi97/ForexPay.git</url>
-       <developerConnection>scm:git:https://github.com/samridhi97/ForexPay.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
+	<scm>
+		<connection>scm:https://github.com/sramprakashs/ForexPay.git</connection>
+		<developerConnection>scm:git:https://sramprakashs:clearone11@github.com/sramprakashs/ForexPay.git</developerConnection>
+		<url>https://github.com/sramprakashs/ForexPay.git</url>
+    		<tag>HEAD</tag>
+	</scm>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -80,11 +80,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://3.15.210.6:8081/nexus/content/repositories/snapshots</url>
+			<url>http://13.233.5.95:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
     <id>nexus</id>
-    <url>http://3.15.210.6:8081/nexus/content/repositories/releases</url>
+    <url>http://13.233.5.95:8081/nexus/content/repositories/releases</url>
   </repository>
 		
 
