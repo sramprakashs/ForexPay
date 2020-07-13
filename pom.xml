@@ -131,15 +131,30 @@
 			<groupId>org.flywaydb</groupId>
         		<artifactId>flyway-maven-plugin</artifactId>
 			<version>6.3.2</version>
-		<configuration>
-                	<url>jdbc:mysql://172.31.47.196:3306</url>
-                	<user>fpuser1</user>
-	        	<password>H@ckath0n</password>
-	       	<schemas>
-                        <schema>forexpaydb</schema>
-              	</schemas>
- 		</configuration>	
-	</plugin>
+			<configuration>
+                		<url>jdbc:mysql://172.31.37.144:3306</url>
+                		<user>forexpay</user>
+	        		<password>H@ckath0n</password>
+	       			<schemas>
+                        		<schema>forexpay</schema>
+              			</schemas>
+ 			</configuration>	
+	        </plugin>
+
+
+		<plugin>
+			<groupId>org.flywaydb</groupId>
+        		<artifactId>flyway-maven-plugin</artifactId>
+			<version>6.3.2</version>
+			<configuration>
+                		<url>jdbc:mysql://13.127.223.70:3306</url>
+                		<user>forexpay</user>
+	        		<password>H@ckath0n</password>
+	       			<schemas>
+                        		<schema>forexpay</schema>
+              			</schemas>
+ 			</configuration>	
+	        </plugin>
 	</plugins>
 	</build>
 </project>
