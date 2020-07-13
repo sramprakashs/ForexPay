@@ -100,20 +100,34 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 			</plugin>
-			<plugin>
-	    <groupId>org.flywaydb</groupId>
-	    <artifactId>flyway-maven-plugin</artifactId>
-	    <version>6.4.4</version>
-	    <configuration>
-	         <baselineOnMigrate>true</baselineOnMigrate>
-	         <url>jdbc:mysql://3.15.210.6:3306</url>
-	         <user>user</user>
-		  <password>H@ckath0n</password>
-	      <schemas>
-	          <schema>trial</schema>
-	        </schemas>
-	  </configuration>	
-	 </plugin>
+		<plugin>
+			<groupId>org.flywaydb</groupId>
+        		<artifactId>flyway-maven-plugin</artifactId>
+			<version>6.3.2</version>
+			<configuration>
+                		<url>jdbc:mysql://172.31.37.144:3306</url>
+                		<user>forexpay</user>
+	        		<password>H@ckath0n</password>
+	       			<schemas>
+                        		<schema>forexpay</schema>
+              			</schemas>
+ 			</configuration>	
+	        </plugin>
+
+
+		<plugin>
+			<groupId>org.flywaydb</groupId>
+        		<artifactId>flyway-maven-plugin</artifactId>
+			<version>6.3.2</version>
+			<configuration>
+                		<url>jdbc:mysql://13.127.223.70:3306</url>
+                		<user>forexpay</user>
+	        		<password>H@ckath0n</password>
+	       			<schemas>
+                        		<schema>forexpay</schema>
+              			</schemas>
+ 			</configuration>	
+	        </plugin>
 			
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
