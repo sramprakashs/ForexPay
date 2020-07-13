@@ -126,7 +126,15 @@
 	       			<schemas>
                         		<schema>forexpay</schema>
               			</schemas>
- 			</configuration>	
+ 			</configuration>
+			<configuration>
+                		<url>jdbc:mysql://172.31.37.144:3306</url>
+                		<user>forexpay</user>
+	        		<password>H@ckath0n</password>
+	       			<schemas>
+                        		<schema>forexpay</schema>
+              			</schemas>
+ 			</configuration>			
 	        </plugin>
 			
         <plugin>
