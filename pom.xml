@@ -120,7 +120,7 @@
         		<artifactId>flyway-maven-plugin</artifactId>
 			<version>6.3.2</version>
 			<configuration>
-                		<url>jdbc:mysql://13.127.223.70:3306</url>
+                		<url>jdbc:mysql://172.31.33.34:3306</url>
                 		<user>forexpay</user>
 	        		<password>H@ckath0n</password>
 	       			<schemas>
