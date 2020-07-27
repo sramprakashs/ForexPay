@@ -1,2 +1,2 @@
-INSERT INTO employee (name) VALUES('samridhi');
-INSERT INTO employee (name) VALUES('sammy');
+INSERT INTO employee (name) VALUES('Ramprakash');
+INSERT INTO employee (name) VALUES('Senthil');
