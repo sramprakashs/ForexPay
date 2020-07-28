@@ -6,11 +6,17 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
-	</parent>
+	</parent>	
 	<groupId>com.squad</groupId>
 	<artifactId>ForexPay</artifactId>
 	<version>1.11</version>
 	<name>ForexPay</name>
+	
+	<groupId>com.squad</groupId>
+	<artifactId>ForexPay</artifactId>
+	<version>1.11-SNAPSHOT</version>
+	<name>ForexPay</name>	
+	
 	<description>Money Transfer project for Spring Boot</description>
 	<scm>
 		<connection>scm:https://github.com/sramprakashs/ForexPay.git</connection>
