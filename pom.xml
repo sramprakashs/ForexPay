@@ -84,13 +84,10 @@
 			<url>http://13.235.81.49:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
-    <id>nexus</id>
-    <url>http://13.235.81.49:8081/nexus/content/repositories/releases</url>
-  </repository>
-		
-
+			    <id>nexus</id>
+			    <url>http://13.235.81.49:8081/nexus/content/repositories/releases</url>
+		</repository>
 	</distributionManagement>
-
 	<build>
 		<plugins>
 			<plugin>
