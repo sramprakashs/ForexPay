@@ -7,11 +7,7 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>	
-	<groupId>com.squad</groupId>
-	<artifactId>ForexPay</artifactId>
-	<version>1.11</version>
-	<name>ForexPay</name>
-	
+
 	<groupId>com.squad</groupId>
 	<artifactId>ForexPay</artifactId>
 	<version>1.11-SNAPSHOT</version>
